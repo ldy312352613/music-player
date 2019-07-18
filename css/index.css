@@ -1,0 +1,91 @@
+*{margin:0;padding:0}
+a{text-decoration:none;color:#fff;}
+ul{list-style:none;}
+/*头部  第一层背景设置*/
+header div:first-child{
+    background:#000;   
+}
+/* 头部  第一层文字布局*/
+header div:first-child> ul.one{
+    width:1200px;
+    margin:0 auto;
+    line-height:70px;
+    display:flex;     /*弹性布局*/
+    justify-content:space-between;  /*两端对齐*/
+    color:#AAA;
+    margin-left:px;
+}
+
+header div:first-child>ul li>a:hover{
+    color:rgba(216, 25, 25, 0.849);
+}
+header div:first-child>ul li>input{
+    border-radius:10px;
+    height:20px;
+}
+/*登录菜单*/
+
+
+/* 头部  第二层 nav */
+header div:nth-child(2){
+    height:35px;
+    background:rgba(216, 20, 20, 0.932);
+}
+header div:nth-child(2) ul{
+    width:1000px;
+    line-height:35px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    font-size:12px;
+}
+header div:nth-child(2) ul li:hover{
+    background-color:rgba(20, 11, 11, 0.329);
+    padding:0 10px;
+}
+
+/*头部  第三层轮播图*/
+/* 放在单独的banner.css文件*/
+
+
+/*section 主体部分*/
+section div:nth-child(1){
+    width:1200px;
+    height:505px;
+    margin:0 auto;
+}
+section h1{
+    text-align:center;
+    margin:30px 0;
+}
+section ul{
+    width:800px;
+    display:flex;     /*弹性布局*/
+    justify-content:space-between;  /*两端对齐*/
+    color:#000;
+    font-size:12px;
+    margin:0 auto;
+}
+section ul li:hover{
+    color:red;
+    cursor:pointer;
+    font-size:18px;
+}
+section ul:nth-child(3){
+    width:1200px;
+    margin-top:30px;
+}
+section ul:nth-child(3) li img{
+    width:220px;
+    border-radius:5px;
+}
+section ul:nth-child(3) li:hover{
+    color:rgb(57, 57, 214);
+    position: relative;
+    top:-5px;
+    left:-5px;
+}
+/*主体  第二层 轮播图*/ 
+
+
+
